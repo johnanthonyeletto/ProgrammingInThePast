@@ -7,6 +7,6 @@ These languages are:
 
 * Fortran
 * COBOL
-*BASIC
-*Pascal
-*Scala
+* BASIC
+* Pascal
+* Scala
