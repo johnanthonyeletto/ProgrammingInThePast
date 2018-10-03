@@ -1,0 +1,5 @@
+\contentsline {section}{FORTRAN}{1}
+\contentsline {section}{COBOL}{3}
+\contentsline {subsection}{\numberline {0.0.1}BASIC Diary}{4}
+\contentsline {subsection}{\numberline {0.0.2}Pascal Diary}{4}
+\contentsline {subsection}{\numberline {0.0.3}Scala Diary}{4}
