@@ -62,7 +62,7 @@ End Sub
 
 
 
-Dim As Integer shiftAmount = 25
+Dim As Integer shiftAmount = 3
 Dim As String word = "THIS IS A TEST STRING FROM JOHN ELETTO" 
 
 encrypt word, shiftAmount

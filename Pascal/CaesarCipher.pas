@@ -57,7 +57,7 @@ var
     shiftAmount: integer;
 
 begin
-    shiftAmount := 15;
+    shiftAmount := 7;
     word := 'THIS IS A TEST MESSAGE FROM JOHN ELETTO';
 
     encrypt(word, shiftAmount);
