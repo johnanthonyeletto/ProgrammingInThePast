@@ -3,6 +3,7 @@
 ' website: johneletto.com
 ' github: git.johneletto.com
 
+' Subroutine for encrypting with the Caesar Cipher
 Sub encrypt(word As String, shiftAmount as Integer)
     Dim currentCharAscii As Integer
     For i As Integer = 0 To Len(word)
@@ -19,6 +20,7 @@ Sub encrypt(word As String, shiftAmount as Integer)
     Print "Encrypted: "; word
 End Sub
 
+' Subroutine for decrypting with the Caesar Cipher
 Sub decrypt(word As String, shiftAmount as Integer)
     Dim CurrentCharAscii As Integer
     'For i As Integer = 0 to shiftAmount
@@ -38,6 +40,7 @@ Sub decrypt(word As String, shiftAmount as Integer)
     'Next
 End Sub
 
+' Subroutine for solving with the Caesar Cipher
 Sub solve(word As String, shiftAmount as Integer)
     Dim CurrentCharAscii As Integer
     'For i As Integer = 0 to shiftAmount

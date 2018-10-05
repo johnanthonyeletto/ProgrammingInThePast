@@ -11,6 +11,7 @@ object CaesarCipher{
     def main(args: Array[String]) {
         encrypt();
         decrypt();
+        println("Solving:");
         solve(26);
     }
 
