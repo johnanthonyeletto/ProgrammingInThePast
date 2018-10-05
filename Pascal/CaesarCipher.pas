@@ -7,6 +7,7 @@
 
 Program CaesarCipher(output);
 
+{ Proceudre to encrypt a word given a word and shiftAmount }
 procedure encrypt(var word: string; shiftAmount: integer);
     var
         i: integer;
@@ -19,6 +20,7 @@ procedure encrypt(var word: string; shiftAmount: integer);
         writeln('Encrypted: ', word);
     end;
 
+{ Proceudre to decrypt a word given a word and shiftAmount }
 procedure decrypt(var word: string; shiftAmount: integer);
     var
         i: integer;
@@ -31,6 +33,7 @@ procedure decrypt(var word: string; shiftAmount: integer);
         writeln('Decrypted: ', word);
     end;
 
+{ Proceudre to solve a caesar cipher by returning all solutions }
 procedure solve(var word: string; shiftAmount: integer);
     var
         i: integer;

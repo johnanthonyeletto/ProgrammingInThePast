@@ -9,9 +9,11 @@ Sub encrypt(word As String, shiftAmount as Integer)
     For i As Integer = 0 To Len(word)
         currentCharAscii = word[i]
         Select Case As Const word[i]
+            ' If character is 'A' to 'Z'
             Case 65 To 90
                 word[i] = currentCharAscii + shiftAmount
                 If word[i] > 90 Then word[i] -= 26
+            ' If character is a space
             Case 32
                 word[i] = word[i]
         End Select
@@ -43,7 +45,6 @@ End Sub
 ' Subroutine for solving with the Caesar Cipher
 Sub solve(word As String, shiftAmount as Integer)
     Dim CurrentCharAscii As Integer
-    'For i As Integer = 0 to shiftAmount
         For j As Integer = 0 to Len(word)
             currentCharAscii = word[j]
             Select Case As Const word[j]
@@ -55,9 +56,8 @@ Sub solve(word As String, shiftAmount as Integer)
             End Select
         Next
         Print "Caesar "; shiftAmount; ": "; word
-        If shiftAmount = 1 Then return
+        If shiftAmount <= 1 Then return
         solve word, shiftAmount - 1
-    'Next
 End Sub
 
 
